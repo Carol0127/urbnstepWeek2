@@ -183,6 +183,10 @@ nav {
   width: 32%;
 }
 
+.shoes-list li:hover {
+  opacity: 80%;
+}
+
 .shoes-page {
   display: flex;
   justify-content: center;
@@ -230,6 +234,11 @@ nav {
   margin-left: 24px;
 }
 
+.bottom:hover {
+  background-color: #495057;
+  color: white;
+}
+
 .footer-container {
   padding: 64px 312px;
 }
@@ -271,6 +280,11 @@ nav {
   background-color: white;
 }
 
+.btn:hover {
+  background-color: #212529;
+  color: white;
+}
+
 .btn-dark {
   border: 1px solid #212529;
 }
@@ -295,11 +309,21 @@ nav {
   border-radius: 5px;
 }
 
+.btn-love:hover {
+  background-color: #212529;
+  color: white;
+}
+
 .btn-reserve {
   background-color: #212529;
   color: white;
   padding: 12px 60px;
   border-radius: 5px;
+}
+
+.btn-reserve:hover {
+  background-color: #495057;
+  color: white;
 }
 
 .border-line-bottom {

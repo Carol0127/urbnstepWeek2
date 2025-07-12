@@ -24,6 +24,10 @@
   margin-right: 8px;
 }
 
+.color-shoes li:hover {
+  opacity: 80%;
+}
+
 .shoes-like ul {
   display: flex;
   flex-wrap: nowrap;
