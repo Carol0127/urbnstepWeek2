@@ -1,0 +1,307 @@
+body {
+  margin: 0 auto;
+  font-family: "Noto Sans TC", sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+}
+
+.row {
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+  padding-top: 12px;
+  padding-bottom: 4px;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+
+.fs-20 {
+  font-size: 24px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-28 {
+  font-size: 28px;
+}
+.fs-32 {
+  font-size: 32px;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+.mb-8 {
+  margin-bottom: 8px;
+}
+.mb-12 {
+  margin-bottom: 12px;
+}
+.mb-16 {
+  margin-bottom: 12px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
+.mb-48 {
+  margin-bottom: 24px;
+}
+.mb-64 {
+  margin-bottom: 64px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+.mr-24 {
+  margin-right: 24px;
+}
+
+.green {
+  color: #57a203;
+}
+.light-green {
+  color: #e8fec5;
+}
+.gary {
+  color: #6c757d;
+}
+.light-gary {
+  color: #dee2e6;
+}
+.dark {
+  color: #212529;
+}
+.red {
+  color: #d74f4f;
+}
+
+header {
+  padding: 16px;
+  width: 1296px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-list li {
+  padding-right: 48px;
+}
+.logo-list li a {
+  color: #212529;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.container {
+  padding: 32px;
+  margin: 0 auto;
+}
+
+.tour ul {
+  display: flex;
+}
+.tour li {
+  padding-right: 12px;
+}
+.tour a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-list li {
+  padding-bottom: 16px;
+}
+
+.product-list li a {
+  display: block;
+  padding: 12px 0px;
+  text-decoration: none;
+}
+
+.shoes-list ul {
+  display: flex;
+  margin-left: 24px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.shoes-list li {
+  margin-bottom: 48px;
+  width: 32%;
+}
+
+.shoes-page {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.shoes-page ul {
+  display: flex;
+  align-items: center;
+}
+
+.shoes-page ul a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: #212529;
+}
+
+.bg-green {
+  background-color: #c0fa73;
+}
+
+.bg-light-green {
+  background-color: #e8fec5;
+}
+
+.bg-dark-gary {
+  background-color: #f8f9fa;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 0px;
+}
+
+.bottom {
+  display: block;
+  padding: 12px 24px;
+  background-color: #212529;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-left: 24px;
+}
+
+.footer-container {
+  padding: 64px 312px;
+}
+
+.footer-list {
+  margin-bottom: 24px;
+}
+.footer-list ul {
+  display: flex;
+}
+
+.footer-list li {
+  padding-left: 40px;
+}
+
+.footet-content {
+  text-align: center;
+  padding-top: 32px;
+  border-top: 1px solid #dee2e6;
+}
+
+.pdr-8 {
+  padding-right: 8px;
+}
+
+.pdt-12 {
+  padding-top: 12px;
+}
+
+.pdb-12 {
+  padding-bottom: 12px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 5px;
+  color: #212529;
+  background-color: white;
+}
+
+.btn-dark {
+  border: 1px solid #212529;
+}
+
+.btn-gary {
+  border: 1px solid #dee2e6;
+}
+
+.btn-double-gary {
+  color: #dee2e6;
+  border: 1px solid #dee2e6;
+}
+
+.cart-btn {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.btn-love {
+  background-color: white;
+  padding: 12px 82px;
+  border-radius: 5px;
+}
+
+.btn-reserve {
+  background-color: #212529;
+  color: white;
+  padding: 12px 60px;
+  border-radius: 5px;
+}
+
+.border-line-bottom {
+  border-bottom: 1px solid #6c757d;
+}

@@ -1,0 +1,30 @@
+.product-img {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-img li {
+  max-width: 50%;
+  padding: 0px 4px 8px 4px;
+}
+
+.sale {
+  color: #adb5bd;
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+.color-shoes {
+  display: flex;
+}
+
+.color-shoes li {
+  width: 20%;
+  text-align: center;
+  margin-right: 8px;
+}
+
+.shoes-like ul {
+  display: flex;
+  flex-wrap: nowrap;
+}
