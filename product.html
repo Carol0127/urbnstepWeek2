@@ -4,13 +4,8 @@
     <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-        crossorigin="anonymous"
-      />
       <link rel="stylesheet" href="reset.css" />
+      <link rel="stylesheet" href="grid.css" />
       <link rel="stylesheet" href="style.css" />
       <link rel="stylesheet" href="./product.css" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -96,13 +91,12 @@
         <div class="col-5">
           <nav class="tour mb-12">
             <ul class="product-detail">
-              <li><a href="" class="gary">首頁</a></li>
-              <li class="light-gary">/</li>
-              <li><a href="" class="gary">女鞋</a></li>
-              <li class="light-gary">/</li>
-              <li><a href="" class="gary">滑板鞋</a></li>
-              <li class="light-gary">/</li>
-              <li><a href="" class="dark">Platform 404</a></li>
+              <li class="line-item"><a href="" class="gary">首頁</a></li>
+              <li class="line-item"><a href="" class="gary">女鞋</a></li>
+              <li class="line-item"><a href="" class="gary">滑板鞋</a></li>
+              <li class="line-item">
+                <a href="" class="dark">Platform 404</a>
+              </li>
             </ul>
           </nav>
           <h1 class="dark fw-700 fs-32 mb-16">Platform 404</h1>
@@ -150,13 +144,13 @@
           </div>
           <p class="fw-400 red mb-48">僅剩3雙</p>
           <div class="cart-btn mb-32">
-            <button class="btn-love btn-dark mr-8">
+            <button class="btn-love btn-dark mr-8 d-flex alic">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
                 height="20"
                 fill="currentColor"
-                class="bi bi-heart"
+                class="bi bi-heart mr-8"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -165,13 +159,13 @@
               </svg>
               <span class="btn-text">加入收藏</span>
             </button>
-            <button class="btn-reserve btn-dark">
+            <button class="btn-reserve btn-dark d-flex alic">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
                 height="20"
                 fill="currentColor"
-                class="bi bi-handbag"
+                class="bi bi-handbag mr-8"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -222,36 +216,44 @@
           <div class="shoes-like mb-48">
             <ul>
               <li class="mr-24">
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-2.png?raw=true"
-                  alt="product3"
-                />
-                <h2>VM001</h2>
-                <h3>NT$2,600</h3>
+                <a href="#">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-2.png?raw=true"
+                    alt="product3"
+                  />
+                  <h2>VM001</h2>
+                  <h3>NT$2,600</h3>
+                </a>
               </li>
               <li class="mr-24">
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-3.png?raw=true"
-                  alt="product4"
-                />
-                <h2>Melty Kiss</h2>
-                <h3>NT$4,000</h3>
+                <a href="#">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-3.png?raw=true"
+                    alt="product4"
+                  />
+                  <h2>Melty Kiss</h2>
+                  <h3>NT$4,000</h3>
+                </a>
               </li>
               <li class="mr-24">
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true"
-                  alt="product5"
-                />
-                <h2>BOOMBLOK</h2>
-                <h3>NT$3,200</h3>
+                <a href="#">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true"
+                    alt="product5"
+                  />
+                  <h2>BOOMBLOK</h2>
+                  <h3>NT$3,200</h3>
+                </a>
               </li>
               <li>
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-7.png?raw=true"
-                  alt="product7"
-                />
-                <h2>Sugar Snap</h2>
-                <h3>NT$4,000</h3>
+                <a href="#">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-7.png?raw=true"
+                    alt="product7"
+                  />
+                  <h2>Sugar Snap</h2>
+                  <h3>NT$4,000</h3>
+                </a>
               </li>
             </ul>
           </div>

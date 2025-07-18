@@ -5,8 +5,9 @@ body {
   line-height: 1.5;
 }
 
-.row {
-  display: flex;
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
 }
 
 img {
@@ -22,6 +23,7 @@ p {
 a {
   font-weight: 500;
   text-decoration: none;
+  color: #212529;
 }
 
 h2 {
@@ -140,17 +142,10 @@ nav {
   font-weight: 500;
 }
 
-.container {
-  padding: 32px;
-  margin: 0 auto;
-}
-
 .tour ul {
   display: flex;
 }
-.tour li {
-  padding-right: 12px;
-}
+
 .tour a {
   text-decoration: none;
   font-weight: 500;
@@ -173,7 +168,7 @@ nav {
 
 .shoes-list ul {
   display: flex;
-  margin-left: 24px;
+
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -328,4 +323,15 @@ nav {
 
 .border-line-bottom {
   border-bottom: 1px solid #6c757d;
+}
+
+/* ==========列表偽元素===============*/
+.line-item + .line-item::before {
+  content: "/";
+  padding: 0 12px;
+}
+
+.line-item {
+  display: flex;
+  color: #dee2e6;
 }
